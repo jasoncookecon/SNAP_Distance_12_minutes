@@ -74,17 +74,14 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "freezeframe")) #, "scribble"
 
 - People apply to many programs and rules not harmonized and application is not automatic as in much of the developed world $\Rightarrow$ low take-up is more of issue in US than other places (.smallest[.red[Currie, 2006; Currie and Gahvari, 2008]]). 
 
----
-# Motivation
-
 - Social program take-up: Hot topic in public econ, yet understudied.
   - Emphasis on understanding role of barriers to accessing safety net.
   
 -  Barriers impact both .hi-red[take-up] (how many people enroll) and .hi-red[targeting] (what types of people enroll). 
 
---
+---
 
-## SNAP
+# SNAP
 
 - Backbone of US safety net.
 
@@ -109,7 +106,7 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "freezeframe")) #, "scribble"
 
   - Automated application process (.smallest[.red[Wu, 2021]])
 
-- None find improvements in both take-up and targeting
+- No evidence for improvements in both take-up and targeting
 
 `r RefManageR::NoCite(bib, c("Daponte1999","Bhargava2015","Deshpande2019","Ebenstein2010","Homonoff2020","Finkelstein2019b","Daponte1999","Bartlett2004","Bhargava2015","Armour2018","Bettinger2012","Schanzenbach2009","Kabbani2003b","Hanratty2006","Deshpande2019","Rossin-Slater2013","Ambrozek2021","Unrath2021a","Wu2021","Gray2018","Barnes2021","Barnes2021a","Whaley2021","Vasan2021"))`
 
@@ -124,12 +121,12 @@ xaringanExtra::use_xaringan_extra(c("tile_view", "freezeframe")) #, "scribble"
 
 --
 
-- Link Census data on .red[residential location] with .red[administrative SNAP data] and information on .purple[SNAP offices] and .purple[SNAP-authorized retailers].
+- Link Census data on residential location with administrative SNAP data and information on SNAP offices and SNAP-authorized retailers.
 
 - Not possible to study this question with existing surveys due to limited sample sizes and data quality issues.
 
 
-- Study population within states and don’t have to focus samples with limited generalizability (previous RCT literature).
+- Study population within states and don’t have to focus samples with limited generalizability.
 
 
 `r RefManageR::NoCite(bib, c("Handbury2021","Rossin-Slater2013","Meckel2020b"))`
@@ -208,7 +205,7 @@ ggsave(
 ```
 
 .pull-left[
-- .hi-red[SNAP Administrative Data]
+- SNAP Administrative Data
 
 - Master Address File
 
@@ -293,7 +290,6 @@ $$y_{it} = \sum_{\tau, \tau\neq 1}\beta_\tau 1(t-E_i = \tau)+  \gamma_i + \theta
 
 --
 
-- Sample includes all SNAP offices and event time is only calculated for treated offices (i.e., opening or closing).
 
 - Test robustness to heterogeneous treatment effects (.smallest[.red[de Chaisemartin and D'Haultfœuille, 2020]]).
   
