@@ -215,8 +215,6 @@ ggsave(
 
 - ACS
 
-- HHS TANF Administrative Data
-
 - Collected 243 SNAP office closings and 336 openings.
 ]
 .pull-right[
