@@ -546,7 +546,7 @@ count: false
 # References
 
 ```{r, results='asis', echo=FALSE}
-PrintBibliography(bib, start = 1, end = 4)
+PrintBibliography(bib, start = 1, end = 3)
 ```
 
 ---
@@ -555,7 +555,7 @@ count: false
 # References
 
 ```{r, results='asis', echo=FALSE}
-PrintBibliography(bib, start = 5, end = 8)
+PrintBibliography(bib, start = 4, end = 7)
 ```
 ---
 count: false
@@ -563,7 +563,7 @@ count: false
 # References
 
 ```{r, results='asis', echo=FALSE}
-PrintBibliography(bib, start = 9, end = 12)
+PrintBibliography(bib, start = 8, end = 11)
 ```
 ---
 count: false
@@ -571,7 +571,7 @@ count: false
 # References
 
 ```{r, results='asis', echo=FALSE}
-PrintBibliography(bib, start = 13, end = 16)
+PrintBibliography(bib, start = 12, end = 14)
 ```
 
 ---
@@ -580,13 +580,5 @@ count: false
 # References
 
 ```{r, results='asis', echo=FALSE}
-PrintBibliography(bib, start = 17, end = 20)
-```
----
-count: false
-
-# References
-
-```{r, results='asis', echo=FALSE}
-PrintBibliography(bib, start = 21, end = 21)
+PrintBibliography(bib, start = 15, end = 17)
 ```
